@@ -59,8 +59,9 @@ class Pet:
         print("-" * 20)
 
 
-cat = Pet(name="Whiskers", species="Cat")
+cat = Pet(name="Bob", species="Cat")
 for _ in range(7):  
     cat.live_a_day()
+
 
     
